@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: orange;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    padding-top: 20%;
+}

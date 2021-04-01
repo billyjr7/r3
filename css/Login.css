@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/Food\ \(8\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+input {
+    border: 2px;
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+    /* margin: 5px; */
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+input::placeholder{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.btn {
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: orange;
+    font-size: 16px;
+    border: 0px;
+}
+h2 {
+    margin-bottom: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: orange;
+}
+small{
+    font-size: 20px;
+    color: white;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* heading */
+.container{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/Food\ 7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+.Logo{
+    background-image: url("../img/20210331_182312.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 12px 14px;
+}
+a:hover{
+    padding: 12px 14px;
+    color: orange;
+}
+h1{
+    background-color: orange;
+    border-end-end-radius: 30px;
+    /* border-start-start-radius: 30px; */
+    width: 12%;
+    margin-top: 40px;
+    font-size: 50px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+h2{
+    font-size: 60px;
+    color: white;
+    margin-left: 100px;
+}
+p{
+    color: white;
+    margin-left: 150px;
+}
+.btn{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 12px 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    color: white;
+    border: 1px solid orange;
+    background-color: orange;
+}
+/*  */
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+/*  */
+span{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #f1f1ff;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#Main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media (max-width:600px){
+    h1{
+        width: 36%;
+        margin-top: 40px;
+        font-size: 40px;
+        border-end-end-radius: 30px;
+        color: white;
+        margin-left: 70px;
+        margin-top: 100px;
+    }
+    h2{
+        margin-left: 70px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+        color: white;
+        margin-left: 70px;
+    }   
+    .container{
+        height:700px;
+        width: 100%;
+    }    
+
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    font-size: 70px;
+}
+h1{
+    font-size: 60px;
+
+}
+.container{
+    text-align: center;
+    /* margin-top: 50px; */
+    background-color: #ccc;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: orange;
+    height: 250px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.fa-whatsapp{
+    padding-right: 10px ;
+}
+.fa-instagram{
+    padding-right: 10px ;
+}
+.fa-twitter{
+    padding-right: 10px ;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px  ;
+}
+.icons{
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    justify-content: space-b;
+}
+@media (max-width:600px){
+    .con2{
+        width: 50%;
+    }
+    .icons p{
+        margin-bottom: 15px;
+    }
+    .fa-whatsapp{
+        padding-right: 10px ;
+    }
+    .fa-instagram{
+        padding-right: 10px ;
+    }
+    .fa-twitter{
+        padding-right: 10px ;
+    }
+    .fa-angle-left{
+        float: left;
+        margin: 30px;
+    }
+}

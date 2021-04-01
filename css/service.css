@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #ccc;
+    text-align: center;
+}
+.section2{
+    display: flex; 
+    background-color: orange;
+    height: 300px;
+  
+}
+.con1{
+    background-color: #ccc;
+    margin: 20px;
+    width: 50%;
+    border-radius: 30px;
+}
+.con2{
+    background-color: #ccc;
+    margin: 20px;
+    width: 40%;
+    border-radius: 30px;
+}
+.con3{
+    background-color:#ccc ;
+    margin: 20px;
+    width: 50%;
+    border-radius: 30px;
+}
+.con4{
+    background-color:#ccc ;
+    margin: 20px;
+    width: 50%;
+}
+.img{
+    background-image: url("../img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 50%;
+    height: 100px;
+}
+.img2{
+    background-image: url("../img/4.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 50%;
+    height: 100px;
+}
+.img3{
+    background-image: url("../img/6.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 50%;
+    height: 100px;
+}
+.img4{
+    background-image: url("../img/fact3.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 50%;
+    height: 100px;
+}
+h2{
+    width: 80%;
+    margin-left:30% ;
+}
+p{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+.blank{
+    height: 50px;
+    padding-top: 20px;
+    background: black;
+    color: white;
+}
+@media (max-width:600px){
+    .section2{
+        display: flex; 
+        background-color: orange;
+        height: 350px;
+        width: 100%;
+    }
+    .con1{
+        background-color: #ccc;
+        margin: 20px;
+        width: 50%;
+        border-radius: 30px;
+    }
+    .img{
+        margin-top: 10px;
+        margin-left: 32%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+  
+    }
+    .img2{
+        margin-top: 10px;
+        margin-left: 30%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+  
+    }
+    .img3{
+        margin-top: 10px;
+        margin-left: 32%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+  
+    }
+    .img4{
+        margin-top: 10px;
+        margin-left: 30%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+  
+    }
+    h2{
+        width: 80%;
+        font-size: small;
+        margin-left: 13%;
+    }
+    .con1 h2{
+        margin-left: 20%;
+    }
+    p{
+        width: 70%;
+        font-size: small;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .blank{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.CON1{
+    background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/Food\ 7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1{
+    color: #cccccc;
+    text-align: center;
+}
+.container{
+    background-color:black;
+    height: 1100px;
+}
+.food-des{
+    background-color: #fff;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    padding: 30px;
+    /* margin-right: -20px; */
+}
+.food-des-img{
+    height: 150px;
+    /* opacity: 0.8; */
+}
+.img1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img3:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img4:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img5:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img6:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img1{
+    background-image: url("../img/food\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.img2{
+    background-image: url("../img/Food\ \(2\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.img3{
+    background-image: url("../img/Food\ Pizza\ .jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    border-radius: 20px;
+}
+.img4{
+    background-image: url("../img/Food\ \(8\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    border-radius: 20px;
+}
+.img5{
+    background-image: url("../img/Pizza.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.img6{
+    background-image: url("../img/Food\ 7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.food-des-title{
+    padding-top: 5px;
+}
+.btn{
+    color: black;
+    background-color: orange;
+    padding: 10px 42px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 600px;
+    margin-top: 20px;
+
+}
+.closebtn{
+    float: right;
+    color: white;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.icon2{
+    color: whitesmoke;
+    font-size: 17px;
+}
+.search{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 4px 24px;
+    outline: none;
+}
+.footer{ 
+    height: 50px;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    font-size: 10px;
+}
+button{
+    padding: 3px 20px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+}
+button:Hover{
+    background-color: lightblue;
+    outline: none;
+}
+h5{
+    color: black;
+}
+p{
+    color: black;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/*  */
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+/*  */
+span{
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #f1f1ff;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#Main{
+    display: flex;
+    float: right;
+    margin-top: -10px;
+    transition: margin-left .5s;
+    padding: 15px;
+}
+#Main a{
+    color: orange;
+}
+/* Responsive */
+@media (max-width:600px){
+    .CON1{
+        width: 100%;
+        height: 200px;
+    }
+    .container{
+        height: auto;
+    }
+    .btn{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .search{
+        margin-left: 10%;
+        margin-top: 90px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin-left: 30px;
+    }
+    .food-des{
+        height: 260px;
+        margin-bottom: 30px;
+    }
+    .food-des-img{
+        height: 150px;
+    }
+    .btn{
+        margin-left: 33%;
+        align-items: center;
+    }
+    input{
+        align-items: center;
+    }
+    .footer{
+        text-align: center;
+        padding: 40px;
+        /* margin-top: 5px; */
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+
+}
